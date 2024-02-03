@@ -118,15 +118,15 @@ async function drawButton(text){
 }
 
 async function checkDuelResults(playerCardId, ComputerCardId){
-    let duelResults = "Draw"
+    let duelResults = "draw"
     let playerCard = cardData[playerCardId];
 
     if (playerCard.winOf.includes(ComputerCardId)){
-        duelResults = "Win";
+        duelResults = "win";
         state.score.playerScore++;
     }
     if (playerCard.loseOf.includes(ComputerCardId)){
-        duelResults = "Lose";   
+        duelResults = "lose";   
         state.score.computerScore++;
     }
     await playAudio(duelResults);
