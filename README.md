@@ -35,7 +35,6 @@ No jogo, você pode escolher entre 3 cartas:
 ## Regras
 
 - O jogo é jogado contra o computador.
-- Não há habilidades especiais, cartas mágicas ou cartas de armadilha.
 - O objetivo é ganhar do computador em uma partida de Jokenpo.
 
 Divirta-se jogando!
